@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "CARD_DETAILS")
-public class CardEnitiy extends BaseEntitiy {
+public class Cards extends BaseEntitiy {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -11,4 +11,6 @@ public class ResourceNotFoundException extends RuntimeException {
         super(msg);
     }
 
+    public ResourceNotFoundException(String card, String mobilenumber, String mobileNumber) {
+    }
 }
